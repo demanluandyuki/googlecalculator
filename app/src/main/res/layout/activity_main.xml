@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_111"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edit_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_size"/>
+    <LinearLayout
+        android:id="@+id/ln_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calculator_item_size"
+        android:paddingBottom="@dimen/calculator_line_padding">
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/item_button"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn_negative"
+            style="@style/item_button"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/btn_present"
+            style="@style/item_button"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/btn_devide"
+            style="@style/item_button"
+            android:text="/" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calculator_item_size"
+        android:paddingBottom="@dimen/calculator_line_padding">
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/item_button"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/item_button"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/item_button"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btn_plus"
+            style="@style/item_button"
+            android:text="x" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calculator_item_size"
+        android:paddingBottom="@dimen/calculator_line_padding">
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/item_button"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/item_button"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/item_button"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn_reduce"
+            style="@style/item_button"
+            android:text="-" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calculator_item_size"
+        android:paddingBottom="@dimen/calculator_line_padding">
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/item_button"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/item_button"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/item_button"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/item_button"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calculator_item_size"
+        android:paddingBottom="@dimen/calculator_line_padding">
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/item_button"
+            android:text="0"
+            android:layout_weight="2"/>
+
+
+        <Button
+            android:id="@+id/btn_dot"
+            style="@style/item_button"
+            android:text="."
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_equal"
+            style="@style/item_button"
+            android:text="="
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
