@@ -14,7 +14,7 @@
         <item name="android:layout_weight">1.0</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/text_size</item>
-        <item name="android:background">@color/white</item>
+        <item name="android:background">#ffffff</item>
         <item name="android:layout_marginRight">@dimen/calculator_line_padding</item>
     </style>
 </resources>
