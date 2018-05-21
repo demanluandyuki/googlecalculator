@@ -10,8 +10,8 @@ android {
         applicationId "com.joyfulmath.calculator"
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
-        versionCode 100
-        versionName "1.0.0"
+        versionCode 101
+        versionName "1.0.1"
         //65k
         multiDexEnabled true
         buildConfigField "String", "buglyId", "\"a5ccc98e68\""
